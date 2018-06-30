@@ -24,12 +24,18 @@
     <ClInclude Include="outbound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="activatefirewall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="lockfromnetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="activatefirewall.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
